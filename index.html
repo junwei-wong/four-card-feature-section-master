@@ -15,8 +15,8 @@
     />
 
     <title>Frontend Mentor | Four card feature section</title>
-    <link rel="stylesheet" href="./stylesheets/reset.css" />
-    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/reset.css" preload />
+    <link rel="stylesheet" href="./stylesheets/style.css" preload />
   </head>
   <body>
     <main>
@@ -29,28 +29,42 @@
           points to ensure that your project is successful
         </p>
       </header>
-      <article id="supervisor">
-        <header><h2>Supervisor</h2></header>
-        <p>Monitors activity to identify project roadblocks</p>
-        <img src="./images/icon-supervisor.svg" alt="magnifying glass icon" />
-      </article>
-      <article id="team_builder">
-        <header><h2>Team Builder</h2></header>
-        <p>
-          Scans our talent network to create the optimal team for your project
-        </p>
-        <img src="./images/icon-team-builder.svg" alt="team builder icon" />
-      </article>
-      <article id="karma">
-        <header><h2>Karma</h2></header>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <img src="./images/icon-karma.svg" alt="karma icon" />
-      </article>
-      <article id="calculator">
-        <header><h2>Calculator</h2></header>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <img src="./images/icon-calculator.svg" alt="calculator icon" />
-      </article>
+      <section id="cards">
+        <section id="first-column">
+          <article id="supervisor">
+            <header><h2>Supervisor</h2></header>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img
+              src="./images/icon-supervisor.svg"
+              alt="magnifying glass icon"
+            />
+          </article>
+        </section>
+        <section id="second-column">
+          <article id="team_builder">
+            <header><h2>Team Builder</h2></header>
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img src="./images/icon-team-builder.svg" alt="team builder icon" />
+          </article>
+          <article id="karma">
+            <header><h2>Karma</h2></header>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <img src="./images/icon-karma.svg" alt="karma icon" />
+          </article>
+        </section>
+        <section id="third-column">
+          <article id="calculator">
+            <header><h2>Calculator</h2></header>
+            <p>
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img src="./images/icon-calculator.svg" alt="calculator icon" />
+          </article>
+        </section>
+      </section>
     </main>
     <footer>
       <p class="attribution">
