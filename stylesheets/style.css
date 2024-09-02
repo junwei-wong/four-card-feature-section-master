@@ -51,7 +51,7 @@ main section#cards {
   flex-direction: column;
   margin-top: 1.5rem;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   main {
     margin: auto 5vw;
   }

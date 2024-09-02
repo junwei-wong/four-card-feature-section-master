@@ -26,7 +26,7 @@ $lightgray: hsl(0, 0%, 98%);
 $gray: hsl(229deg 29.87% 88.1%);
 
 $small-screen: 375px;
-$large-screen: 1300px;
+$large-screen: 1200px;
 
 @mixin small-screen {
   @media (max-width: $small-screen) {
